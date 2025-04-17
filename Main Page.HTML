@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="SOLAND.css">
+<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Caveat'>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>SOLAND - Travel Agency</title>
@@ -11,7 +13,7 @@
       margin: 0;
       padding: 0;
       box-sizing: border-box;
-      font-family: 'Roboto', sans-serif;
+      font-family:'Caveat'
     }
 
     body {
@@ -20,12 +22,12 @@
 
     /* الهيدر */
     header {
-      background-color: #007bff;
+      background-color: #20A2CD;
       display: flex;
       align-items: center;
-      justify-content: space-between;
-      padding: 20px 50px;
-      height: 150px;
+	  text-align: center;
+      padding: 15px 50px;
+      height: 100px;
     }
 
     .logo-container {
@@ -35,7 +37,7 @@
     }
 
     .logo-container img {
-      height: 200px;
+      height: 100px;
     }
 
     .logo-container h1 {
@@ -57,7 +59,7 @@
       color: white;
       text-decoration: none;
       margin: 0 15px;
-      font-size: 18px;
+      font-size: 25px;
       padding: 10px;
       transition: 0.3s;
     }
@@ -70,8 +72,9 @@
     /* الصورة الخلفية */
     .hero {
       background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e');
-      background-size: cover;
-      background-position: center;
+	  background-size: cover;
+background-position: center;
+margin-bottom=0;
       height: 70vh;
       display: flex;
       align-items: center;
@@ -148,8 +151,8 @@
     /* التذييل */
     footer {
       text-align: center;
-      padding: 15px;
-      background-color: #007bff;
+      padding: 20px;
+     background-color: #20A2CD;
       color: white;
     }
 
@@ -167,15 +170,16 @@
 
   <!-- شريط التنقل -->
   <nav>
-    <a href="">Home</a>
-    <a href="">About Us</a>
-    <a href="">Destinations</a>
-    <a href="">Hotel List</a>
-    <a href="">Offers and Packages</a>
-    <a href="">Booking</a>
-    <a href="">Log In</a>
-    <a href="">Contact Us and Feedback</a>
+    <a href="Main Page.HTML">Home</a>
+    <a href="About us.html">About Us</a>
+    <a href="Destinations.html">Destinations</a>
+    <a href="Hotel List.html">Hotel List</a>
+    <a href="Offers and Packages.html">Offers and Packages</a>
+    <a href="Booking.html">Booking</a>
+    <a href="LogIn.html">Log In</a>
+    <a href="Contact Us and Feedback">Contact Us and Feedback</a>
   </nav>
+
 
   <!-- الصورة الرئيسية -->
   <section class="hero">
@@ -195,13 +199,13 @@
       <i class="fas fa-hotel"></i>
       <h3>Hotels</h3>
       <p>Find your perfect stay at top-rated hotels worldwide.</p>
-      <a href="">Browse</a>
+      <a href="Hotel List.html">Browse</a>
     </div>
     <div class="feature">
       <i class="fas fa-map-marked-alt"></i>
-      <h3>Tours</h3>
+      <h3>Offers and Packages</h3>
       <p>Discover exciting destinations and tours across the globe.</p>
-      <a href="">View Tours</a>
+      <a href="Offers and Packages.html">View Tours</a>
     </div>
   </section>
 
