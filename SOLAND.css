@@ -1,1 +1,69 @@
+<style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    /* الهيدر */
+    header {
+      background-color: #007bff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 20px 50px;
+      height: 150px;
+    }
+
+    .logo-container {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .logo-container img {
+      height: 200px;
+    }
+
+    .logo-container h1 {
+      color: white;
+      font-size: 48px;
+      font-weight: bold;
+    }
+
+    /* شريط التنقل */
+    nav {
+      background-color: #10597F;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 15px 10px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 18px;
+      padding: 10px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #F83C19;
+      border-radius: 5px;
+    }
+
+   
+   
+    /* التذييل */
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #007bff;
+      color: white;
+    }
+
+  </style>
 
